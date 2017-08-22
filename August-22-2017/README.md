@@ -16,6 +16,8 @@
   * console.error()
   * Filter between logs/warnings/errors
   * note: don't use alerts - use logs
+  * Grouping
+  * Logging Objects with console.dir(object)
 * Scroll into View
 
 
