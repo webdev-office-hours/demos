@@ -9,6 +9,7 @@ export class HomeComponent {
 
     constructor() {
         this.welcomeMessage = "Welcome to WebDevOfficeHours"
+        
         // console.log(this.welcomeMessage);
         // console.warn(this.welcomeMessage);        
         // console.error(this.welcomeMessage);        
@@ -18,7 +19,8 @@ export class HomeComponent {
         // console.groupEnd();  
         // console.group("Second Group - States");        
         // this.secondGroup();
-        // console.groupEnd();        
+        // console.groupEnd();  
+              
     }
 
     // firstGroup() {
@@ -32,4 +34,6 @@ export class HomeComponent {
     //     console.log("VA");
     //     console.log("FL");
     // }
+
+
 } 
