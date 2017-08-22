@@ -9,6 +9,13 @@
   * Hide Elements
   * Detail view of properties of an element (computed tab)
   * Break on changes in the DOM
+  * Viewing the DOM and console at the same time
+* Console
+  * console.log()
+  * console.warn()
+  * console.error()
+  * Filter between logs/warnings/errors
+  * note: don't use alerts - use logs
 * Scroll into View
 
 
