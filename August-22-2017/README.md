@@ -16,3 +16,4 @@
 
 [Link](http://slides.com/paulberesuita/chrome-developer-tools)
 
+<iframe src="//slides.com/paulberesuita/chrome-developer-tools/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
