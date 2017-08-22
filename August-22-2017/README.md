@@ -1,4 +1,4 @@
-## Chrome Developer Tools
+## Things Covered
 
 * Comparison
 * Quick history
@@ -14,4 +14,5 @@
 
 ## Slides
 
-## Notes
+[Link](http://slides.com/paulberesuita/chrome-developer-tools)
+
