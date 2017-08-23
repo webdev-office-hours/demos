@@ -1,4 +1,15 @@
-<div class="panel panel-default">
+<button type="button" class="btn btn-primary" (click)="fetchData()">Fetch Data</button>
+<button type="button" class="btn btn-primary" (click)="clearData()">Clear Data</button>
+
+<hr>
+<ul>
+    <li *ngFor="let item of list">
+        <a>{{item.name}}</a><br>
+        <small>{{item.description}}</small>
+    </li>
+</ul>
+<!-- <div>{{list | json}}</div> -->
+<!-- <div class="panel panel-default">
     <div class="panel-heading"><h4 class="app-panel-headers">Panel heading without title</h4></div>
     <div class="panel-body">
         Panel content
@@ -21,4 +32,4 @@
     <div class="panel-body">
         Panel content
     </div>
-</div>
+</div> -->

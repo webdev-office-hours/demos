@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule, Routes } from '@angular/router';
 import {LocationStrategy, HashLocationStrategy} from '@angular/common';
 import { LoginComponent } from './login/login.component';
+import { HttpModule } from '@angular/http';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -26,6 +27,7 @@ const routes: Routes = [
   imports: [
     NgbModule.forRoot(), 
     BrowserModule,
+    HttpModule,
     RouterModule.forRoot(
       routes,
       { enableTracing: true } // <-- debugging purposes only
