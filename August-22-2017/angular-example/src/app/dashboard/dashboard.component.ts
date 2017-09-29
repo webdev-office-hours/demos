@@ -7,7 +7,6 @@ import 'rxjs/Rx';
    selector: 'app-root',
    templateUrl: './dashboard.component.html',   
 })  
-
 export class DashboardComponent {  
 
     public list: Object;
